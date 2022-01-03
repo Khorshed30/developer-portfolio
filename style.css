@@ -27,8 +27,8 @@ h1{
     width: 67%;
     padding-left: 15%;
 }
-section{
-    display: inline-flex;
+.flexible-container{
+    display: flex;
 }
 .top-back{
     background-image: url(images/top-banner.png);
@@ -37,7 +37,7 @@ section{
 }
 .dream{
     display: inline-flex;
-    padding-top: 10%;
+    margin-top: 10%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -55,4 +55,38 @@ section{
     text-decoration: none;
 }
 
+.ornge{
+    color: orange;
+}
+.title{
+    font-size: 35px;
+}
+.about_buttom{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.bottom-bar{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web{
+    border-left: 7px solid;
+    border-image:linear-gradient(#dd111b, rgb(255, 72, 0));
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+  
+}
+footer p{
+    text-align: center;
+    padding-bottom: 20px;
 }
