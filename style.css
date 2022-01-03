@@ -23,7 +23,7 @@ h1{
     padding-left: 5%;
 
 }
-.img img{
+.about img{
     width: 67%;
     padding-left: 15%;
 }
@@ -34,4 +34,25 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+.dream{
+    display: inline-flex;
+    padding-top: 10%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.download{
+    background-image: linear-gradient(#f0623e, #ffb547) ;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 }
